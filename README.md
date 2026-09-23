@@ -73,5 +73,3 @@ python cli.py --plot cost_sensitive
 * `models.py`: Defines the model estimators (Logistic Regression, Random Forest, Gradient Boosting).
 * `configs.py`: Handles saving and loading trained configurations via `joblib` for reproducibility.
 
-## License & Citation
-If you use this code or the findings in **MLreport.pdf**, please refer to the author details in the report for citation instructions.
