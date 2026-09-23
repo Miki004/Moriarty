@@ -57,7 +57,7 @@ if __name__ == "__main__":
     cva = RepeatedKFold(n_splits=10, n_repeats=3, random_state=42)
     cvb = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
 
-    model_names = [m for m in MODELS]
+    model_names = [m for m in MODELS if m != "DummyClassifier"]
 
 
     test_a_names = (
